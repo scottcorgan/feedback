@@ -1,0 +1,29 @@
+{
+  "name": "feedback",
+  "version": "0.0.0",
+  "description": "Fancier console.log for Node.js cli apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/feedback.git"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "cli"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/feedback/issues"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "dependencies": {
+    "colors": "~0.6.2"
+  }
+}
