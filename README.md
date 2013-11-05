@@ -14,8 +14,8 @@ npm install feedback --save
 ```javascript
 var feedback = require('feedback');
 
-// Avoid all color, defaults to true
-feedback.color = false; 
+// Strips all color from output
+feedback.color = false;
 
 //
 feeback.write('message') // same as process.stdout
