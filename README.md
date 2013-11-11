@@ -33,7 +33,7 @@ Feedback provides you with the ability to mute the output to the bash at any tim
 ```javascript
 var feedback = require('feedback');
 
-feedback.test;
+feedback.test = true;
 feedback.success('Muted message'); // This message won't get printed to the bash
 
 feedback.on('write', function (msg) {
