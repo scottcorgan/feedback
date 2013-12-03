@@ -1,4 +1,6 @@
 var test = require('tape');
-var Feedback = require('../lib/feedback').Feedback;
+var feedback = require('../lib/feedback');
+var Feedback = feedback.Feedback;
+var chalk = require('chalk');
 
-console.log('write tests, bro');
+feedback.colorFix(feedback.error('write tests, bro'));

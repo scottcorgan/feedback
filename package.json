@@ -1,6 +1,6 @@
 {
   "name": "feedback",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Fancier console.log for Node.js cli apps",
   "main": "lib/feedback.js",
   "scripts": {
@@ -24,6 +24,6 @@
     "tape": "~2.1.0"
   },
   "dependencies": {
-    "colors": "~0.6.2"
+    "chalk": "~0.3.0"
   }
 }

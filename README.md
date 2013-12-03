@@ -42,7 +42,7 @@ feedback.on('write', function (msg) {
 });
 ```
 
-## Run test
+## Run tests
 
 ```
 npm install
